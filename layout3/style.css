@@ -1,3 +1,75 @@
-h1 {
-  color: rebeccapurple;
+body {
+	color: #fff;
+	font-family: 'Futura', sans-serif;
+	text-align: center;
 }
+
+#content {
+	display: grid;
+	grid-template-columns: 12;
+	grid-auto-rows: 100%;
+	min-height: 100vh;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+#content div {
+	background: #333;
+	padding: 30px;
+	border: 5px solid black;
+
+}
+
+.one {
+	grid-column: 1/3;
+	grid-row: 1/2;
+	flex-grow: 30%;
+}
+
+
+.two {
+	grid-column: 3/6;
+	grid-row: 1/2;
+}
+
+.three {
+	grid-column: 1/3;
+	grid-row: 2/3;
+	
+}
+
+.four {
+	grid-column: 3/6;
+	
+}
+
+.five {
+	grid-column:  ;
+	
+}
+
+.six {
+	
+}
+
+/*I've become completely lost at this point. Not sure how to make the small
+pieces of the layout within my grid.*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
